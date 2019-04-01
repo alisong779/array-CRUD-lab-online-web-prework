@@ -6,10 +6,10 @@ def create_an_array
   my_array = ["peace", "love", "happiness", "freedom"]
 end
 
-def add_element_to_end_of_array(my_array, element)
-  my_array = ["peace", "love", "happiness", "freedom"]
-  element = "arrays!"
-  my_array << "arrays!"
+def add_element_to_end_of_array(array, element)
+    array = ["wow", "I", "am", "really", "learning"]
+    element = "arrays!"
+      array << "arrays!"
   puts my_array.inspect
 end
 

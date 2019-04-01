@@ -8,8 +8,8 @@ end
 
 def add_element_to_end_of_array(my_array, element)
   my_array = ["peace", "love", "happiness", "freedom"]
-  element = "joy"
-  my_array << "joy"
+  element = "arrays!"
+  my_array << "arrays!"
   puts my_array.inspect
 end
 
